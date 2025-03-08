@@ -1,0 +1,9 @@
+*.vmf
+*.log
+*.prt
+*.vmx
+*.ain
+*.lst
+cfg/local_loadout_87417303.txt
+*.nav
+stats.txt

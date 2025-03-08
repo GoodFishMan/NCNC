@@ -1,0 +1,36 @@
+VertexLitGeneric
+{
+	$basetexture "models/tyrone/bar/bar_diff"
+	$bumpmap "models/tyrone/bar/bar_normal"
+	
+
+	$surfaceprop Metal
+
+	"$normalmapalphaenvmapmask" "1"
+	"$phong"                    "1"
+	"$phongfresnelranges"       "[.8 .8 1]"
+
+	$phongexponent			100	
+
+	"$envmapmask"		"models/tyrone/bar/bar_rough"
+	"$phongboost" "0.8"
+
+	"$envmap"                  "env_cubemap"
+	"$envmapcontrast"	1	
+	"$envmapanisotropyscale"	1
+	"$envmaptint"	"[0.2 0.2 0.2]"
+	
+	"$phongalbedotint"          "1"
+	"$phongdisablehalflambert"  "1"
+
+	"$rimlight" "1"
+	"$rimlightexponent" "11"
+	"$rimlightboost" "0.2"
+	"$refractamount" ".5"
+	"$reflectamount" ".5"
+
+	$selfillum 1
+	$selfillummask "models/tyrone/bar/bar_glow"
+	$selfillumtint "[0.2 0.2 0.2]"
+
+}
