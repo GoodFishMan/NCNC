@@ -33,7 +33,6 @@ WeaponData
 
 
 	// Muzzleflash
-	//"MuzzleFlashModel"		"models/effects/muzzleflash/minigunmuzzle.mdl"
 	"MuzzleFlashParticleEffect"	"muzzle_syringe"
 	"MuzzleflashModelScale"		".2"
 

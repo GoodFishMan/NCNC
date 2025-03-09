@@ -40,7 +40,6 @@ WeaponData
 	"bucket_position_DM"	"0"
 
 	// Muzzleflash
-	"MuzzleFlashModel"	"models/effects/muzzleflash/minigunmuzzle.mdl"
 	"MuzzleFlashParticleEffect" "muzzle_smg"
 	"MuzzleflashModelScale"	".5"
 
