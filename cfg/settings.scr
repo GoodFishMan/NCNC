@@ -32,7 +32,7 @@
 
 
 // Half-Life Server Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Sat Mar  8 10:17:45 AM
+// File generated:  Sun Mar  9 09:40:04 AM
 //
 //
 // Cvar	-	Setting
@@ -101,7 +101,7 @@ DESCRIPTION SERVER_OPTIONS
 	{
 		"Bot Count"
 		{ NUMBER 0 31 }
-		{ "23" }
+		{ "0" }
 	}
 
 	"tf_bot_taunt_victim_chance"
@@ -122,7 +122,7 @@ DESCRIPTION SERVER_OPTIONS
 			"Expert" "3"
 			"Random" "4"
 		}
-		{ "2" }
+		{ "3" }
 	}
 
 	"tf_bot_keep_class_after_death"

@@ -1,0 +1,8 @@
+"solo_data"
+{
+	"Credits"		"0x0000000000002328"
+	"UnlockedItems"
+	{
+		"Shocking Truth"		"1"
+	}
+}
