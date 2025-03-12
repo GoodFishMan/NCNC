@@ -10,8 +10,8 @@ DESCRIPTION INFO_OPTIONS
 
 	"credit1"
 	{
-		"Mod by BetaM"
-		"https://www.youtube.com/BetaM"
+		"Mod by GoodFishMan"
+		"https://www.youtube.com/GoodFishMan"
 		{ BOOL }
 		{ "1" }
 	}
