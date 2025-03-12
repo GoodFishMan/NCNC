@@ -175,6 +175,16 @@
 		"weapon_test3"
 		{
 			"item_name"	"SMG22"
+			"used_by_classes"
+			{
+				"scout"	"1"
+				"sniper"	"1"
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"	"1"
+				"heavy"	"1"
+				"pyro" "1"
+			}
 			"static_attrs"
 			{
 				"mult_spread_scales_consecutive"				"1.0"
