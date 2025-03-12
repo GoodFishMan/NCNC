@@ -12,13 +12,13 @@ WeaponData
 
 		
 	// Attributes TF.
-	"Damage"		"8"
+	"Damage"		"14"
 	"Range"			"8192"
 	"BulletsPerShot"	"1"
-	"Spread"		"0.03"
+	"Spread"		"0.02"
 	"TimeIdle"		"10.0"
 	"TimeIdleEmpty"		"1.0"
-	"TimeFireDelay"		"0.08"
+	"TimeFireDelay"		"0.07"
 	"ProjectileType"	"projectile_bullet"
 	"BrassModel"		"models/weapons/shells/shell_pistol.mdl"
 	"UseRapidFireCrits"	"1"
@@ -28,8 +28,8 @@ WeaponData
 	// Ammo & Clip.
 	"primary_ammo"		"TF_AMMO_SECONDARY"
 	"secondary_ammo"	"None"
-	clip_size		25
-	default_clip		25
+	clip_size		30
+	default_clip		30
 
 	// Buckets.
 	"bucket"		"1"
@@ -44,8 +44,7 @@ WeaponData
 	"MuzzleflashModelScale"	".5"
 
 	// Animation.
-	"viewmodel"		"models/weapons/v_models/v_smg_sniper.mdl"
-	//"viewmodel_dm"		"models/weapons/v_models/v_smg_merc.mdl" // Redundant until we add unique animations.
+	"viewmodel"		"models/weapons/v_smg_mp5.mdl"
 	"playermodel"	"models/weapons/w_models/w_smg.mdl"
 	"anim_prefix"	"ac"
 

@@ -5,5 +5,4 @@ VertexLitGeneric
 	"$envmap" "env_cubemap"
 	"$envmapmask" "models\weapons\v_models\smg_p90\smg_p90_sight_ref"
 
-	"$halflambert" "1"
 }

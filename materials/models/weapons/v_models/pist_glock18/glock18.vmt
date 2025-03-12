@@ -4,5 +4,4 @@ VertexLitGeneric
 	"$envmap" "env_cubemap"
 	"$envmapmask" "models\weapons\v_models\pist_glock18\glock18_ref"
 
-	"$halflambert" "1"
 }

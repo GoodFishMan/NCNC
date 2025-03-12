@@ -4,5 +4,4 @@ VertexLitGeneric
 	"$envmap" "env_cubemap"
 	"$envmapmask" "models\weapons\v_models\pist_deagle\deagle_skin1_ref"
 
-	"$halflambert" "1"
 }

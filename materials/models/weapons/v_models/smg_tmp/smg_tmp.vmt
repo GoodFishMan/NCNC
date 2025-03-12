@@ -4,5 +4,4 @@ VertexLitGeneric
 	"$envmap" "env_cubemap"
 	"$envmapmask" "models\weapons\v_models\smg_tmp\smg_tmp_ref"
 
-	"$halflambert" "1"
 }

@@ -147480,19 +147480,39 @@
 			"hidden"			"1"
 			"stored_as_integer"	"1"
 		}
+		
+		
+		// NCNC CUSTOM ATTRIBUTES
 		"3019"
 		{
 			"name"	"weapon spread scale"
 			"attribute_class"	"mult_spread_scales_consecutive_scale"
-			"description_string"	"#Attrib_SpreadScale_Positive"
+			"description_string"	"#Attrib_SpreadScale_Negative"
 			"description_format"	"value_is_inverted_percentage"
 			"hidden"	"0"
-			"effect_type"	"positive"
+			"effect_type"	"negative"
 			"stored_as_integer"	"0"
 		}
-
-
-
+		"3020"
+		{
+			"name"	"mod_recoil_angle"
+			"attribute_class"	"mod_recoil_angle"
+			"description_string"	"ViewPunch Angle"
+			"description_format"	"value_is_additive"
+			"hidden"	"1"
+			"effect_type"	"negative"
+			"stored_as_integer"	"0"
+		}
+		"3021"
+		{
+			"name"	"max spread number"
+			"attribute_class"	"max_spread_number"
+			"description_string"	"#Attrib_max_shot_spread"
+			"description_format"	"value_is_inverted_percentage"
+			"hidden"	"0"
+			"effect_type"	"negative"
+			"stored_as_integer"	"0"
+		}
 
 	}
 	"item_criteria_templates"

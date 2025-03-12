@@ -2,12 +2,43 @@
 #base items_solo_balancing.txt
 #base items_solo_cosmetics.txt
 #base items_solo_taunts.txt
-#base items_solo_weapons.txt
 
 "items_game"
 {
 	"prefabs"
 	{
+		"weapon_ncnc_base"
+		{
+			"item_name"	"Carp Weapon"
+			"item_logname"	"carpweapon"
+			"item_iconname"	"carpweapon"
+			"item_type_name"	"Test Weapon"
+			"attach_to_hands"	"0"
+			"flip_viewmodel"	"1"
+			"item_quality"	"unique"
+			"item_slot"	"secondary"
+			"used_by_classes"
+			{
+				"scout"	"1"
+				"sniper"	"1"
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"	"1"
+				"heavy"	"1"
+				"pyro" "1"
+			}
+			"static_attrs"
+			{
+				"mult_spread_scales_consecutive"	"1.0"
+				"max spread number"		"0.5"
+				"weapon spread scale"	"2.0"
+				"mod_recoil_angle"		"1.0"
+				
+				"damage bonus"		"1.5"
+				"fire rate bonus"	"0.75"
+			}
+
+		}
 		"weapon_bottledsorrow"
 		{
 			"item_class"	"saxxy"
@@ -147,8 +178,9 @@
 			"static_attrs"
 			{
 				"mult_spread_scales_consecutive"				"1.0"
-				"weapon spread scale"				"2.0"
+				"mod_recoil_angle"	"0.6"
 			}
+
 		}
 		"weapon_test1"
 		{
@@ -180,6 +212,29 @@
 			"prefab"	"weapon_test3 weapon_smg"
 			"baseitem" "0"
 			"soloitem" "1"
+			"attributes"
+			{
+				"hidden secondary max ammo penalty"
+				{
+					"attribute_class"	"mult_maxammo_secondary"
+					"value"	"3.0"
+				}
+			}
+		}
+		"34447"
+		{
+			"name"	"Carp Weapon"
+			"prefab"	"weapon_ncnc_base weapon_smg"
+			"baseitem" "0"
+			"soloitem" "1"
+			"attributes"
+			{
+				"hidden secondary max ammo penalty"
+				{
+					"attribute_class"	"mult_maxammo_secondary"
+					"value"	"3.0"
+				}
+			}
 		}
 	}
 }

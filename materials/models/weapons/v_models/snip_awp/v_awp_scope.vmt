@@ -5,5 +5,4 @@ VertexLitGeneric
 	"$envmap" "env_cubemap"
 	"$envmapmask" "models\weapons\v_models\snip_awp\v_awp_scope_ref"
 
-	"$halflambert" "1"
 }
