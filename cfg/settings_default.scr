@@ -45,7 +45,7 @@ DESCRIPTION SERVER_OPTIONS
 	{
 		"#Valve_Hostname"
 		{ STRING }
-		{ "TF SOLO" }
+		{ "NCNC" }
 	}
 
 	"maxplayers"
@@ -101,14 +101,7 @@ DESCRIPTION SERVER_OPTIONS
 	{
 		"Bot Count"
 		{ NUMBER 0 31 }
-		{ "23" }
-	}
-
-	"tf_bot_taunt_victim_chance"
-	{
-		"Bots Taunt Victim Chance (0-100)"
-		{ NUMBER 0 100 }
-		{ "20" }
+		{ "0" }
 	}
 
 	"tf_bot_difficulty"
@@ -122,40 +115,12 @@ DESCRIPTION SERVER_OPTIONS
 			"Expert" "3"
 			"Random" "4"
 		}
-		{ "1" }
-	}
-
-	"tf_bot_keep_class_after_death"
-	{
-		"Bots Don't Switch Classes"
-		{ BOOL }
-		{ "0" }
-	}
-
-	"tf_bot_melee_only"
-	{
-		"Bots Only Use Melee"
-		{ BOOL }
-		{ "0" }
-	}
-
-	"sv_cheats"
-	{
-		"Cheats"
-		{ BOOL }
-		{ "0" }
+		{ "2" }
 	}
 
 	"mp_disable_respawn_times"
 	{
 		"Disable Respawn Times"
-		{ BOOL }
-		{ "0" }
-	}
-
-	"mp_highlander"
-	{
-		"HighLander Mode"
 		{ BOOL }
 		{ "0" }
 	}
