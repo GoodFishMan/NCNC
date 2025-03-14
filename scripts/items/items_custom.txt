@@ -14,7 +14,6 @@
 			"item_iconname"	"carpweapon"
 			"item_type_name"	"Test Weapon"
 			"attach_to_hands"	"0"
-			"flip_viewmodel"	"1"
 			"item_quality"	"unique"
 			"item_slot"	"secondary"
 			"used_by_classes"
@@ -53,72 +52,6 @@
 					"ACT_MP_SWIM_SECONDARY"	"ACT_HL2MP_SWIM_SMG1"
 				}
 			}
-
-		}
-		"weapon_bottledsorrow"
-		{
-			"item_class"	"saxxy"
-			"capabilities"
-			{
-				"nameable"		"1"
-			}
-			"tags"
-			{
-				"can_deal_damage"			"1"
-				"can_deal_critical_damage"	"1"
-			}
-			"item_logname"	"bottledsorrow"
-			"item_iconname"	"bottledsorrow"
-			"show_in_armory"	"1"
-			"item_type_name"	"Bottle"
-			"item_name"	"Bottled Sorrow"
-			"item_slot"	"melee"
-			"image_inventory"	"backpack/weapons/w_models/w_bottle"
-			"image_inventory_size_w"		"128"
-			"image_inventory_size_h"		"82"
-			"model_player"	"models/workshop/player/items/demo/taunt_scotsmans_stagger/taunt_scotsmans_stagger.mdl"
-			"attach_to_hands"	"1"
-			"inspect_panel_dist" "40"
-			"item_quality"	"unique"
-			"propername"	"1"
-			"min_ilevel"	"5"
-			"max_ilevel"	"5"
-			"anim_slot" "MELEE_ALLCLASS"
-			"used_by_classes"
-			{
-				"scout"	"1"
-				"sniper"	"1"
-				"soldier"	"1"
-				"demoman"	"1"
-				"medic"	"1"
-				"heavy"	"1"
-				"pyro" "1"
-			}
-			"static_attrs"
-			{
-				"min_viewmodel_offset"		"10 0 -7"
-				"slow enemy on hit major" "3.0"
-				"move speed bonus" "1.05"
-				"single wep holster time increased" "1.5"
-				"fire rate penalty" "1.25"
-			}
-			"attributes"
-			{
-				"always tradable"
-				{
-					"attribute_class"	"always_tradable"
-					"value"				"1"
-				}
-			}
-			"visuals"
-			{
-				"sound_melee_hit"		"Weapon_Bottle.HitFlesh"
-				"sound_melee_hit_world"	"Weapon_Bottle.HitWorld"
-				"sound_melee_miss"	"Weapon_Bottle.Miss"
-				"sound_burst"		"Weapon_Bottle.MissCrit"
-			}
-			"mouse_pressed_sound"	"ui/item_bottle_pickup.wav"
-			"drop_sound"		"ui/item_bottle_drop.wav"
 		}
 		"weapon_shockingtruth"
 		{
@@ -205,6 +138,32 @@
 			{
 				"mult_spread_scales_consecutive"				"1.0"
 				"mod_recoil_angle"	"0.6"
+			}
+			"visuals"
+			{
+				"sound_single_shot"		"Weapon_MP5Navy.Single"
+			}
+			
+
+		}
+		"weapon_m4a1"
+		{
+			"item_name"	"M4A1"
+			"used_by_classes"
+			{
+				"scout"	"1"
+				"sniper"	"1"
+				"soldier"	"1"
+				"demoman"	"1"
+				"medic"	"1"
+				"heavy"	"1"
+				"pyro" "1"
+			}
+			"static_attrs"
+			{
+				"mult_spread_scales_consecutive"	"1.0"
+				"max spread number"		"1.5"
+				"mod_recoil_angle"	"0.3"
 			}
 
 		}
@@ -322,61 +281,18 @@
 		}
 		"34449"
 		{
-			"name"	"Noise Maker - I LOVE YOU"
-			"loadondemand"	"1"
-			"item_class"	"tf_wearable"
+			"name"	"Assault Weapon"
+			"prefab"	"weapon_m4a1 weapon_rifle"
+			"baseitem" "0"
 			"soloitem" "1"
-			"tool"
-			{
-				"type"	"noise_maker"
-			}
-			"capabilities"
-			{
-				"usable"		"1"
-				"usable_gc"		"1"
-			}
-			"show_in_armory"	"1"
-			"armory_desc"		"I LOVE YOU SOOOO MUCH!"
-			"item_type_name"	"#TF_Party_Favor"
-			"item_name"			"Noise Maker - I LOVE YOU"
-			"item_slot"	"action"
-			"image_inventory"	"backpack/crafting/noisemaker_gong"
-			"image_inventory_size_w"	"128"
-			"image_inventory_size_h"	"82"
-			"item_quality"		"unique"
-			"min_ilevel"	"5"
-			"max_ilevel"	"5"
-			"used_by_classes"
-			{
-				"scout"		"1"
-				"sniper"	"1"
-				"soldier"	"1"
-				"demoman"	"1"
-				"medic"		"1"
-				"heavy"		"1"
-				"spy" 		"1"
-				"engineer" 	"1"
-				"pyro" 		"1"
-			}
 			"attributes"
 			{
-				"noise maker"
+				"hidden secondary max ammo penalty"
 				{
-					"attribute_class"	"enable_misc2_noisemaker"
-					"value"			"1"
-				}
-				"unlimited quantity"
-				{
-					"attribute_class"	"unlimited_quantity"
-					"value" "1"
+					"attribute_class"	"mult_maxammo_secondary"
+					"value"	"4.0"
 				}
 			}
-			"visuals"
-			{
-				"custom_sound0"	"Jingle.ILoveU"
-			}
-			"mouse_pressed_sound" 	"Jingle.ILoveU"
-			"drop_sound"		"ui/item_metal_scrap_drop.wav"
 		}
 	}
 }
