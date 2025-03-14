@@ -24,4 +24,57 @@ armory_config
 	{
 		Cost 1000
 	}
+	"Halloween Noise Maker - Stabby"
+	{
+		Cost 500
+	}
+	"Charity Noise Maker - Bell"
+	{
+		Cost 500
+	}
+	"Charity Noise Maker - Tingsha"
+	{
+		Cost 500
+	}
+	"Promotional Noise Maker - Koto"
+	{
+		Cost 500
+	}
+	"Promotional Noise Maker - Fireworks"
+	{
+		Cost 500
+	}
+	"Noise Maker - Vuvuzela"
+	{
+		Cost 500
+	}
+	"Halloween Noise Maker - Black Cat"
+	{
+		Cost 500
+	}
+	"Halloween Noise Maker - Gremlin"
+	{
+		Cost 500
+	}
+	"Halloween Noise Maker - Werewolf"
+	{
+		Cost 500
+	}
+	"Halloween Noise Maker - Witch"
+	{
+		Cost 500
+	}
+	"Halloween Noise Maker - Banshee"
+	{
+		Cost 500
+	}
+	"Halloween Noise Maker - Crazy Laugh"
+	{
+		Cost 500
+	}
+	"Noise Maker - Bonesaw"
+	{
+		Cost 500
+	}
+	
 }
