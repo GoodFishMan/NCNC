@@ -1,0 +1,33 @@
+//G3SG1
+"Jingle.Bownsaw"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"70, 140"
+	"soundlevel"  	"SNDLVL_80dB"
+
+	"wave"			"bonesaw.mp3"
+}
+"Jingle.ILoveU"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"70, 140"
+	"soundlevel"  	"SNDLVL_80dB"
+
+	"wave"			"I_LOVE_YOU.mp3"
+}
+
+"HEAVY.Step"
+{
+	"channel"		"CHAN_STATIC"
+	"volume"		"1.0"
+	"pitch"			"85,115"
+	"soundlevel"  	"SNDLVL_96dB"
+	"rndwave"
+	{
+		"wave"		"player\footsteps\heavywalk1.wav"
+		"wave"		"player\footsteps\heavywalk2.wav"
+		"wave"		"player\footsteps\heavywalk3.wav"
+	}
+}

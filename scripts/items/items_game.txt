@@ -17763,6 +17763,10 @@
 					}
 				}
 			}
+			"attributes"
+			{
+
+			}
 			"static_attrs"
 			{
 			"min_viewmodel_offset"		"10 0 -7"
@@ -31358,6 +31362,7 @@
 			"name"	"Halloween Noise Maker - Black Cat"
 			"first_sale_date"	"2010/10/15"
 			"prefab"	"valve"
+			"soloitem" "1"
 			"loadondemand"	"1"
 			"item_class"	"tf_wearable"
 			"tool"
@@ -31415,6 +31420,7 @@
 			"prefab"	"valve"
 			"loadondemand"	"1"
 			"item_class"	"tf_wearable"
+			"soloitem" "1"
 			"tool"
 			{
 				"type"	"noise_maker"
@@ -31467,6 +31473,7 @@
 		{
 			"name"	"Halloween Noise Maker - Werewolf"
 			"first_sale_date"	"2010/10/15"
+			"soloitem" "1"
 			"prefab"	"valve"
 			"loadondemand"	"1"
 			"item_class"	"tf_wearable"
@@ -31524,6 +31531,7 @@
 			"first_sale_date"	"2010/10/15"
 			"prefab"	"valve"
 			"loadondemand"	"1"
+			"soloitem" "1"
 			"item_class"	"tf_wearable"
 			"tool"
 			{
@@ -31578,6 +31586,7 @@
 			"name"	"Halloween Noise Maker - Banshee"
 			"first_sale_date"	"2010/10/15"
 			"prefab"	"valve"
+			"soloitem" "1"
 			"loadondemand"	"1"
 			"item_class"	"tf_wearable"
 			"tool"
@@ -31634,6 +31643,7 @@
 			"first_sale_date"	"2010/10/15"
 			"prefab"	"valve"
 			"loadondemand"	"1"
+			"soloitem" "1"
 			"item_class"	"tf_wearable"
 			"tool"
 			{
@@ -31757,6 +31767,7 @@
 			"prefab"	"valve"
 			"loadondemand"	"1"
 			"item_class"	"tf_wearable"
+			"soloitem" "1"
 			"tool"
 			{
 				"type"	"noise_maker"
@@ -34600,6 +34611,7 @@
 			"first_sale_date"	"2010/03/21"
 			"loadondemand"	"1"
 			"item_class"	"tf_wearable"
+			"soloitem" "1"
 			"tool"
 			{
 				"type"	"noise_maker"
@@ -34695,6 +34707,7 @@
 			"first_sale_date"	"2010/03/21"
 			"loadondemand"	"1"
 			"item_class"	"tf_wearable"
+			"soloitem" "1"
 			"tool"
 			{
 				"type"	"noise_maker"
@@ -34753,6 +34766,7 @@
 			"first_sale_date"	"2011/03/09"
 			"loadondemand"	"1"
 			"item_class"	"tf_wearable"
+			"soloitem" "1"
 			"tool"
 			{
 				"type"	"noise_maker"
@@ -39539,6 +39553,7 @@
 			"prefab"	"valve"
 			"first_sale_date"	"2011/06/30"
 			"item_class"	"tf_wearable"
+			"soloitem" "1"
 			"tool"
 			{
 				"type"	"noise_maker"
@@ -40946,6 +40961,7 @@
 			"first_sale_date"	"2011/10/25"
 			"loadondemand"	"1"
 			"item_class"	"tf_wearable"
+			"soloitem" "1"
 			"tool"
 			{
 				"type"	"noise_maker"
